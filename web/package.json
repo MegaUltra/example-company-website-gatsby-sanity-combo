@@ -7,6 +7,7 @@
     "build": "gatsby build",
     "deploy": "npm run now-deploy",
     "develop": "gatsby develop",
+    "host": "gatsby develop -H 0.0.0.0",
     "lint": "eslint .",
     "now-build": "npm run build",
     "start": "npm run develop",
